@@ -1,6 +1,10 @@
 # How to think like a genius programmer
 ---
 
+<a href="#improved-version">Click here for imporved version</a></li>
+
+---
+
 ### 1. **Backbox Method**
 The blackbox method: let's say you need to develop some code that takes in two lists and outputs the merged results of these two lists. A good programmer will immediately think of two things: how to test this code and how to scale. Notice how we haven't actually implemented any code yet. This is what the blackbox method is. Essentially, we know the inputs and outputs of our code, but we deliberately don't worry about the internal workings just yet. By treating your code as a blackbox, you have clear expectations for what the code should do. For example, if I give it two lists, one containing [1, 3, 5] and the other [2, 4, 6], the output should be [1 through 6]. How the code achieves this isn't important at this stage, but what matters is that it takes these inputs and reliably produces the correct output. This method helps create test cases with edge scenarios and is essential to help modularize and scale your code. Thinking in terms of blackboxes allows you to break the system into independent parts that interact with each other.
 
